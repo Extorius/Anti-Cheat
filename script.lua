@@ -211,19 +211,7 @@ spawn(
 )
 
 -- // Detecting Guis
-local DetectedGuis=0
-spawn(function()
-	while task.wait()do
-		DetectedGuis=0
-		for i,v in ipairs(Services["CoreGui"]:GetChildren())do
-			DetectedGuis=i
-		end
-		
-		if DetectedGuis >= 14 then
-			Kick("Detected used of exploiting Gui(s).")
-		end
-	end
-end)
+-- Currently working on this, as all of my methods have been easily bypassable and resulted in false-positives.
 
 -- // FPS Unlockers
 local FPS=0
