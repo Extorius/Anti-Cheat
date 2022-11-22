@@ -152,7 +152,7 @@ LocalPlayer.CharacterAdded:Connect(
                     lastPos = Character.HumanoidRootPart.Position
                 end
                 if (Character.HumanoidRootPart.Position - lastPos).Magnitude >= 10 then
-                    Kick("Telort cheat detected.")
+                    Kick("Teleport cheat detected.")
                 end
                 lastPos = Character.HumanoidRootPart.Position
             end
