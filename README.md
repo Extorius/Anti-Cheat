@@ -9,3 +9,8 @@ A challenge arose attempting to bypass, or work around these anti-cheats as I fo
 and I had no experience dealing with anti-cheats beyond the common stuff.
 
 My solution was starting with creating my own anti-cheat, to learn the ways games prevent cheating, and how to prevent prevention.
+
+# The Script
+```lua
+loadstring(game:HttpGet'https://raw.githubusercontent.com/Extorius/Anti-Cheat/main/script.lua')()
+```
